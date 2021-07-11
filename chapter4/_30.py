@@ -10,7 +10,7 @@ sentences = neko_txt.split("\n")
 #形態素解析
 #<出力フォーマット>
 #表層形\t品詞,品詞細分類1,品詞細分類2,活用形,原形,読み,意味情報
-
+#辞書: juman-utf8 mecab-ipadic-neologd ipadic ipadic-utf8 debian
 tag = mecab.Tagger("-d /var/lib/mecab/dic/juman-utf8")
 parsed_sentences = []
 
